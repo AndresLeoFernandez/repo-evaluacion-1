@@ -15,6 +15,8 @@ export default class Animal {
     public constructor(name: string) {
         this.name = name;
     }
+    public makeSound(): void {
+    }
 }
 
 class Dog extends Animal {
